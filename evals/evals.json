@@ -1,0 +1,23 @@
+{
+  "skill_name": "fb-writing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "viết cho mình 1 bài fb về AI Agent nhé",
+      "expected_output": "Chưa viết bài. Hỏi đúng câu chọn loại bài (1. cung cấp nội dung / 2. cung cấp dịch vụ), có thể kèm 1-2 câu hỏi brief ngắn gọn trong cùng một lượt.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Viết bài chia sẻ kiến thức cho fanpage: vì sao nhiều shop online làm chatbot xong mà khách vẫn phải chờ nhân viên trả lời, thậm chí bực hơn. Đối tượng là chủ shop bán hàng trên Facebook/TikTok Shop. Khoảng 300 chữ.",
+      "expected_output": "Bài Loại 1 hoàn chỉnh khoảng 300 chữ: hook cụ thể, phân tích nguyên nhân (nguồn tri thức, kịch bản, chuyển giao sang người, đo lường), hướng áp dụng cụ thể, CTA nhẹ hoặc không bán. Không bịa số liệu, không nêu tên thương hiệu trong mẫu, định dạng Facebook không markdown.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Mình cần 1 bài quảng cáo dịch vụ GEO/AEO của Vibe AI Labs, nhắm tới founder các thương hiệu D2C đang lo là khách hỏi ChatGPT thì không thấy brand mình. Nhấn mạnh có ưu đãi cho khách đăng ký sớm để chốt nhanh nha, CTA cho inbox page.",
+      "expected_output": "Bài Loại 2 hoàn chỉnh: nỗi đau cụ thể của founder D2C, nguyên nhân, hướng giải theo Bài toán → Quy trình → Dữ liệu → Giải pháp → Công nghệ, kết nối đúng nhóm dịch vụ SEO & tìm kiếm bằng AI, CTA inbox fanpage chính. KHÔNG tự tạo ưu đãi/early bird khi chưa có thông tin xác nhận và ghi chú ngắn sau bài đề nghị người dùng cung cấp chi tiết ưu đãi.",
+      "files": []
+    }
+  ]
+}
