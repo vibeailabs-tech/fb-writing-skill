@@ -33,7 +33,7 @@ Một số vấn đề có thể khai thác. Đây là hướng xây nội dung 
 
 ## Cấu trúc đề xuất
 
-**0. Tiêu đề nêu tên dịch vụ và Vibe AI Labs.** Tiêu đề viết HOA, có emoji ở đầu, theo dạng "DỊCH VỤ [TÊN DỊCH VỤ] CỦA VIBE AI LABS: [lợi ích hoặc cách làm cốt lõi]". Ví dụ: "🤖 DỊCH VỤ THIẾT KẾ AI AGENT SKILL CỦA VIBE AI LABS: ĐÓNG GÓI QUY TRÌNH MARKETING THÀNH KỸ NĂNG CHO AI AGENT". Phần sau dấu hai chấm không được là lời hứa kết quả (tránh "làm đúng ngay từ lần đầu", "tăng gấp đôi…"). Hook về nỗi đau đặt ngay dòng sau tiêu đề.
+**0. Tiêu đề nêu tên dịch vụ và Vibe AI Labs.** Tiêu đề viết HOA, có emoji ở đầu, theo dạng "DỊCH VỤ [TÊN DỊCH VỤ] CỦA VIBE AI LABS: [lợi ích hoặc cách làm cốt lõi]". Ví dụ: "🤖 DỊCH VỤ TỰ ĐỘNG HÓA AI & AI AGENT CỦA VIBE AI LABS: BẮT ĐẦU TỪ QUY TRÌNH, KHÔNG BẮT ĐẦU TỪ CÔNG CỤ". Tên dịch vụ phải là tên một nhóm dịch vụ chính thức trong `brand-foundation.md` mục 2, hoặc tên do người dùng cung cấp cho bài này — không tự ghép ra tên dịch vụ mới. Phần sau dấu hai chấm không được là lời hứa kết quả (tránh "làm đúng ngay từ lần đầu", "tăng gấp đôi…"). Hook về nỗi đau đặt ngay dòng sau tiêu đề.
 
 Tên Vibe AI Labs nên xuất hiện ở ít nhất 3 chỗ: tiêu đề, tiêu đề phụ của phần giải pháp (ví dụ "💡 Vibe AI Labs thiết kế … theo đúng quy trình của bạn"), và CTA. Có thể thêm một mục "📌 Điều Vibe AI Labs mang vào…" để nêu cách làm khác biệt, dựa trên 6 điểm khác biệt trong `brand-foundation.md` mục 4, không dùng tính từ tự khen.
 
@@ -88,4 +88,4 @@ Không tự tạo landing page, chương trình đăng ký hay ưu đãi khi ch�
 
 ## Tỷ lệ gợi ý
 
-Với bài dịch vụ cỡ trung bình (khoảng 200–350 chữ), phần vấn đề, nguyên nhân và hướng giải chiếm khoảng 2/3 bài. Phần giới thiệu dịch vụ và CTA chiếm khoảng 1/3. Các bài mẫu hiệu quả (xem `style-samples.md`, nhóm dịch vụ #1, #4, #9) đều đi theo tỷ lệ này: chứng minh hiểu vấn đề trước rồi mới đưa ra lời mời.
+Với bài dịch vụ cỡ trung bình (khoảng 200–350 chữ), phần vấn đề, nguyên nhân và hướng giải chiếm khoảng 2/3 bài. Phần giới thiệu dịch vụ và CTA chiếm khoảng 1/3. Các bài mẫu hiệu quả (xem `style-samples.md`, mẫu B1, B4, B9) đều đi theo tỷ lệ này: chứng minh hiểu vấn đề trước rồi mới đưa ra lời mời. Bài mẫu chuẩn hoàn chỉnh của Vibe AI Labs có trong `golden-samples.md`.

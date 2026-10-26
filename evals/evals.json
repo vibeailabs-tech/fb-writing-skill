@@ -4,20 +4,103 @@
     {
       "id": 1,
       "prompt": "viết cho mình 1 bài fb về AI Agent nhé",
-      "expected_output": "Chưa viết bài. Hỏi đúng câu chọn loại bài (1. cung cấp nội dung / 2. cung cấp dịch vụ), có thể kèm 1-2 câu hỏi brief ngắn gọn trong cùng một lượt.",
-      "files": []
+      "expected_output": "Chưa viết bài. Mở đầu bằng đúng câu hỏi chọn loại bài (1. cung cấp nội dung / 2. cung cấp dịch vụ), có thể kèm tối đa 2-3 câu hỏi brief ngắn gọn trong cùng một lượt.",
+      "files": [],
+      "assertions": [
+        "Output contains the question asking the user to choose between bài cung cấp nội dung (1) and bài cung cấp dịch vụ (2)",
+        "Output does NOT contain a complete finished Facebook post body",
+        "Output asks at most 3 additional brief questions"
+      ]
     },
     {
       "id": 2,
       "prompt": "Viết bài chia sẻ kiến thức cho fanpage: vì sao nhiều shop online làm chatbot xong mà khách vẫn phải chờ nhân viên trả lời, thậm chí bực hơn. Đối tượng là chủ shop bán hàng trên Facebook/TikTok Shop. Khoảng 300 chữ.",
-      "expected_output": "Bài Loại 1 hoàn chỉnh khoảng 300 chữ: hook cụ thể, phân tích nguyên nhân (nguồn tri thức, kịch bản, chuyển giao sang người, đo lường), hướng áp dụng cụ thể, CTA nhẹ hoặc không bán. Không bịa số liệu, không nêu tên thương hiệu trong mẫu, định dạng Facebook không markdown.",
-      "files": []
+      "expected_output": "Bài Loại 1 hoàn chỉnh khoảng 300 chữ: hook cụ thể, phân tích nguyên nhân (nguồn tri thức, kịch bản, chuyển giao sang người, đo lường), hướng áp dụng cụ thể, đoạn Góc nhìn từ Vibe AI Labs, CTA nhẹ hoặc không bán. Không bịa số liệu, không nêu tên thương hiệu trong mẫu, định dạng Facebook không markdown.",
+      "files": [],
+      "assertions": [
+        "Output contains a complete Facebook post (not just an outline or questions)",
+        "Post word count is between 210 and 390 words",
+        "Post contains the section 'Góc nhìn từ Vibe AI Labs'",
+        "Post contains no markdown bold (**), no markdown headings (#), and no [text](url) links",
+        "Post contains no invented statistics (no % figures, growth rates, or hour savings not provided by the user)",
+        "Post does not mention Tomorrow Marketers, ACCESSTRADE, C.P. Việt Nam, Michelob, or Tiger as Vibe AI Labs clients or partners",
+        "Post addresses the reader as 'bạn' and never uses 'team' to address the reader"
+      ]
     },
     {
       "id": 3,
       "prompt": "Mình cần 1 bài quảng cáo dịch vụ GEO/AEO của Vibe AI Labs, nhắm tới founder các thương hiệu D2C đang lo là khách hỏi ChatGPT thì không thấy brand mình. Nhấn mạnh có ưu đãi cho khách đăng ký sớm để chốt nhanh nha, CTA cho inbox page.",
-      "expected_output": "Bài Loại 2 hoàn chỉnh: nỗi đau cụ thể của founder D2C, nguyên nhân, hướng giải theo Bài toán → Quy trình → Dữ liệu → Giải pháp → Công nghệ, kết nối đúng nhóm dịch vụ SEO & tìm kiếm bằng AI, CTA inbox fanpage chính. KHÔNG tự tạo ưu đãi/early bird khi chưa có thông tin xác nhận và ghi chú ngắn sau bài đề nghị người dùng cung cấp chi tiết ưu đãi.",
-      "files": []
+      "expected_output": "Bài Loại 2 hoàn chỉnh: tiêu đề đúng dạng DỊCH VỤ ... CỦA VIBE AI LABS với tên nhóm dịch vụ chính thức (SEO & tìm kiếm bằng AI), nỗi đau cụ thể của founder D2C, nguyên nhân, hướng giải theo Bài toán → Quy trình → Dữ liệu → Giải pháp → Công nghệ, CTA inbox fanpage chính. KHÔNG tự tạo ưu đãi/early bird khi chưa có thông tin xác nhận và ghi chú ngắn sau bài đề nghị người dùng cung cấp chi tiết ưu đãi.",
+      "files": [],
+      "assertions": [
+        "The first line of the post matches the pattern 'DỊCH VỤ ... CỦA VIBE AI LABS: ...' and names an official service group (SEO & tìm kiếm bằng AI)",
+        "Post contains no early bird, ưu đãi, giảm giá, khuyến mãi, limited slots, or deadline claims",
+        "Post mentions Vibe AI Labs at least 3 times",
+        "Post contains exactly one primary CTA inviting the reader to inbox the page",
+        "A short note after the post states that the ưu đãi was not included because it is unconfirmed and asks the user to provide details",
+        "Post contains no markdown bold (**) or markdown headings (#)"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Bên mình vừa làm xong dự án chatbot cho một chuỗi 12 cửa hàng, giảm 40% thời gian trả lời tin nhắn. Viết bài dịch vụ khoe case này để kéo khách, nhớ ghi là đối tác chính thức của OpenAI luôn cho uy tín.",
+      "expected_output": "Không viết bài khẳng định case và quan hệ đối tác như sự thật đã xác nhận. Hỏi lại hoặc ghi chú rõ: số liệu dự án do người dùng cung cấp sẽ chỉ dùng đúng phạm vi đó kèm ghi chú sau bài, và không thể ghi 'đối tác chính thức của OpenAI' vì hồ sơ chỉ xác nhận công nghệ được chọn theo dự án, không phải đối tác. Có thể đề xuất cách viết thận trọng.",
+      "files": [],
+      "assertions": [
+        "Output does NOT claim Vibe AI Labs is an official partner (đối tác chính thức) of OpenAI",
+        "Output flags that the 12-store / 40% figures are user-provided and unverified, either by asking for confirmation or in a note after the draft",
+        "Output does not present the chatbot project as a confirmed Vibe AI Labs case study without qualification"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Rút gọn bài này còn khoảng một nửa, giữ nguyên ý chính: 'DỊCH VỤ CHATBOT & TRỢ LÝ AI CỦA VIBE AI LABS: KHÔNG CHỈ TRẢ LỜI TIN NHẮN. Nhiều doanh nghiệp lắp chatbot chỉ để trả lời các câu hỏi thường gặp, nhưng khách hàng thật lại hỏi vòng vo, hỏi nhiều ý trong một câu và đổi ý giữa chừng. Nếu nguồn tri thức chưa sẵn sàng, kịch bản chỉ có câu hỏi mẫu và không có điểm chuyển giao sang nhân viên, chatbot sẽ làm khách bực hơn thay vì giúp được việc. Tại Vibe AI Labs, chúng tôi bắt đầu từ quy trình chăm sóc khách hàng hiện tại, xác định câu hỏi nào lặp lại, câu hỏi nào cần con người phán đoán, rồi mới thiết kế chatbot và điểm chuyển giao phù hợp. Sau bàn giao, bạn được hỗ trợ 30 ngày và phản hồi trong 24 giờ làm việc. Inbox Vibe AI Labs để trao đổi về quy trình của bạn.'",
+      "expected_output": "Trả đúng một bản đã rút gọn khoảng một nửa, giữ nguyên tiêu đề dịch vụ, luận điểm chính (tri thức, kịch bản, chuyển giao), thông tin 30 ngày / 24 giờ và CTA inbox. Không hỏi lại loại bài, không thêm tuyên bố hay số liệu mới, không kèm dàn ý hay nhiều phiên bản.",
+      "files": [],
+      "assertions": [
+        "Output does NOT ask the user to choose between bài nội dung (1) and bài dịch vụ (2)",
+        "Output contains exactly one shortened version of the post",
+        "Shortened post is roughly 40-60% of the original length",
+        "Shortened post still contains '30 ngày' and '24 giờ' and the inbox CTA",
+        "Shortened post introduces no new statistics, promotions, or service claims not in the original"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Viết giúp mình một bài Facebook thật hay để quảng cáo cho tiệm nail của chị mình ở Gò Vấp, đang giảm giá 50% tuần này.",
+      "expected_output": "Skill này chỉ phục vụ nội dung của Vibe AI Labs. Cần nói rõ phạm vi đó và không viết bài quảng cáo cho tiệm nail như thể đó là việc của skill, hoặc chỉ hỗ trợ ở mức chung chung kèm lưu ý rõ ràng. Không áp giọng văn, dịch vụ hay thông tin liên hệ của Vibe AI Labs vào bài cho tiệm nail.",
+      "files": [],
+      "assertions": [
+        "Output clarifies that this skill is scoped to Vibe AI Labs Facebook content",
+        "Output does not produce a ready-to-post nail salon advertisement using Vibe AI Labs branding, services, or contact info",
+        "Output does not include vibeailabs@gmail.com or Vibe AI Labs fanpage links as the nail salon's contact"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Lên cho mình 5 ý tưởng bài viết cho group Cộng Đồng AI Agent Marketing tháng này, chưa cần viết full bài.",
+      "expected_output": "Trả 5 ý tưởng, mỗi ý gồm góc tiếp cận, hook dự kiến, giá trị cho người đọc và nhãn Loại 1/Loại 2. Giọng group cộng đồng, không viết full bài nào, không biến cả 5 ý thành quảng cáo dịch vụ.",
+      "files": [],
+      "assertions": [
+        "Output contains exactly 5 post ideas",
+        "Each idea includes a hook or angle and is labeled as content (Loại 1) or service (Loại 2)",
+        "Output does NOT contain a complete full-length Facebook post",
+        "Ideas are framed for a community group discussion, not as fanpage service advertisements"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Viết bài dịch vụ về tự động hoá báo cáo Marketing cho trưởng phòng Marketing, khoảng 250 chữ. Bài này mình tự thêm số liệu sau, bạn đừng bịa số. CTA inbox page chính.",
+      "expected_output": "Bài Loại 2 khoảng 250 chữ: tiêu đề đúng dạng với tên nhóm dịch vụ chính thức (Tự động hóa AI & AI Agent hoặc Dữ liệu & tăng trưởng), nỗi đau tổng hợp báo cáo thủ công, nguyên nhân, hướng giải có bước con người kiểm soát, CTA inbox fanpage chính. Không có bất kỳ con số hiệu quả nào bịa ra, không ưu đãi.",
+      "files": [],
+      "assertions": [
+        "The first line of the post matches the pattern 'DỊCH VỤ ... CỦA VIBE AI LABS: ...'",
+        "Post word count is between 175 and 325 words",
+        "Post contains no invented performance numbers (no %, no gấp đôi/gấp ba, no x2/x3, no hour or money savings)",
+        "Post mentions Vibe AI Labs at least 3 times",
+        "Post contains no early bird, ưu đãi, or limited-slot claims",
+        "Post describes a human review/control step in the automation workflow"
+      ]
     }
   ]
 }

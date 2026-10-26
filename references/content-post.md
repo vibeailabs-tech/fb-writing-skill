@@ -76,3 +76,5 @@ Tránh những câu mở chung chung như "Trong thời đại công nghệ phá
 - Không biến mọi vấn đề thành lý do để dùng AI. Đôi khi câu trả lời đúng là sửa quy trình hoặc làm rõ mục tiêu.
 - Phân biệt rõ đâu là dữ kiện, đâu là nhận định, đâu là ví dụ giả định.
 - Bài vẫn hữu ích ngay cả khi người đọc không bao giờ dùng dịch vụ của Vibe AI Labs.
+
+Một bài mẫu Loại 1 hoàn chỉnh đúng chuẩn có trong `golden-samples.md` (mẫu 1).

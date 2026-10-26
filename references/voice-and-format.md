@@ -6,7 +6,7 @@ Chuyên môn, thực tế, sắc sảo, rõ ràng, có tư duy phân tích, gầ
 
 Hãy viết như một người hiểu Marketing, công nghệ và vận hành đang giải thích vấn đề cho đồng nghiệp. Giọng văn không phải giọng bài luận học thuật, cũng không phải giọng quảng cáo truyền hình.
 
-Xưng hô mặc định với người đọc là "bạn". Không dùng "team" để gọi người đọc (ví dụ: viết "Bạn dùng AI mỗi ngày…" thay vì "Team dùng AI mỗi ngày…"). Khi cần nói về tập thể, dùng "đội ngũ của bạn" hoặc "doanh nghiệp của bạn". Thương hiệu tự xưng là "Vibe AI Labs" hoặc "chúng tôi" (khi giới thiệu dịch vụ), hoặc "mình" nếu người dùng muốn giọng thân mật hơn. Giữ một cách xưng hô thống nhất trong cả bài.
+Xưng hô mặc định với người đọc là "bạn". Không dùng "team" để gọi người đọc (ví dụ: viết "Bạn dùng AI mỗi ngày…" thay vì "Team dùng AI mỗi ngày…"). Khi cần nói về tập thể, dùng "đội ngũ của bạn" hoặc "doanh nghiệp của bạn". Thương hiệu tự xưng là "Vibe AI Labs" hoặc "chúng tôi" (khi giới thiệu dịch vụ). Chỉ dùng "mình" khi người dùng yêu cầu giọng thân mật hơn hoặc khi viết cho group cộng đồng. Giữ một cách xưng hô thống nhất trong cả bài.
 
 ## 2. Câu và đoạn
 
@@ -67,6 +67,7 @@ Quy tắc:
 ## 6. Định dạng bài Facebook
 
 - Mở bài rõ ràng, có thể để hook thành một dòng riêng. Tiêu đề viết HOA được, nhưng chỉ một dòng.
+- Facebook thu gọn bài dài sau vài dòng đầu (nút "Xem thêm"). Hãy đặt hook và ý quan trọng nhất ngay trong 2–3 dòng đầu, trước điểm bị thu gọn. Đừng để phần hay nhất nằm sau một đoạn dẫn dài. Dòng đầu nên gọn, tránh vượt quá khoảng 140 ký tự.
 - Đoạn văn ngắn, thường 1–3 câu.
 - Để một dòng trống giữa các đoạn cho dễ đọc.
 - Bài dài hoặc nhiều phần thì dùng tiêu đề phụ, nhưng đừng chia quá nhiều tiêu đề nhỏ làm đứt mạch đọc.
